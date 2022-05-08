@@ -1,0 +1,37 @@
+body {
+  background-color: #EEFFFD;
+  margin: 10px;
+  color: #9D9D9D;
+}
+
+hr {
+  border-style: none;
+  border-color:#A3E4DB;
+  border-top-style: dotted;
+  border-width: 5px;
+  width:50px;
+}
+
+div {
+  margin: 20px;
+}
+
+textarea {
+  margin:10px;
+}
+
+h1,h3 {
+  color: #40DFEF;
+}
+
+img {
+  border-radius: 30%;
+}
+
+p{
+  font-size: 20px;
+}
+
+li {
+  font-size: 18px;
+}
