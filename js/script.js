@@ -1,4 +1,4 @@
-var userMessage = 'Use Landscape Mode for better Experience!!!';
+var userMessage = 'Use Landscape Mode for better Experience in MOBILE!!!';
 var userMessageTwo = 'Help me improve this website by giving suggestions. You can use the contact me page at the bottom of the website';
 setTimeout(function(){
   alert(userMessage);
