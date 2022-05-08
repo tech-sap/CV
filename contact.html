@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.1">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <h3>You can reach me @</h3>
-  <ul>
-    <li>Gmail : saravanankm17@gmail.com</li>
-    <li>LinkedIn : <a href="https://www.linkedin.com/in/saravanakumaran-manickam-b453071a0" target="_blank">SaravanaKumaran Manickam</a></li>
-  </ul>
-  <hr>
-  <form class="" action="mailto:saravanankmk17@gmail.com" method="post" target="_blank">
-    <div>
-      <label>Your Name : </label>
-      <input type="text" name="" value=""><br>
-    </div>
-    <div>
-      <label>Your Email Id : </label>
-      <input type="email" name="" value=""><br>
-    </div>
-    <div>
-      <label>Message/Feedback : </label><br>
-      <textarea name="" rows="8" cols="30"></textarea><br>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>Give Feedback to  my Website.</h2>
+    <form action="mailto:saravanankmk17@gmail.com" method="get" enctype="text/plain">
       <div>
-        <input type="submit" name="" value="Submit">
-  </form>
-</body>
-
+        <label for="name">Name:
+          <input type="text" name="name" id="name" />
+        </label>
+      </div>
+      <div>
+        <label for="email">Email:
+          <input type="text" name="email" id="email" />
+        </label>
+      </div>
+      <div>
+        <label>Comments:</label>
+        <br />
+        <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
+      </div>
+      <div>
+        <input type="submit" name="submit" value="Send" />
+        <input type="reset" name="reset" value="Clear Form" />
+      </div>
+    </form>
+  </body>
 </html>
